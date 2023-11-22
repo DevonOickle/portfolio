@@ -30,6 +30,21 @@ Yhatzee combines luck and strategy into a simple dice game. A player will roll 5
 The dice will be a white colour #ffffff, with pips being black '#000000'. 
 
 ## Game Mock-Ups
+  -   **Dice Image**
+
+    
+  ![Dice Image](/DiceImage.png)
+
+  -   **Score Sheet Image**
+
+    
+  ![Score Sheet Image](/ScoreSheet.png)
+
+
+  -   **Game Image**
+
+    
+  ![Game Image](/GameImage.png)
 
 
 ## Playing Instructions
