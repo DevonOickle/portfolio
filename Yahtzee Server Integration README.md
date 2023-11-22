@@ -55,6 +55,11 @@ Game end: Once all the scorecard combinations are filled, the game will tally th
 ## Server Integration
 Using NodeJS and installing express, a server can be run that hosts the game processes meaning the game can be run from a server. The HTML, CSS, and part of the Javascript file is run from the client, and the main game processes are run from the server side. 
 
+- YahtzeeDice.css: CSS file of the server integration yahtzee game.
+- YahtzeeDice.html: HTML file of the server integration yahtzee game.
+- YahtzeeDice.js: Javascript file of the server integration yahtzee game.
+- YahtzeeServer.js: Javascript file of the server integration yahtzee game.
+
 ## Colclusion
-This design document serves as a foundation for our Yatzy game development. Following these guidelines ensures we deliver a game that's not only fun to play but also visually appealing and user-friendly.
+This design document serves as a foundation for our Yatzy game development. Following these guidelines ensures we deliver a game that's not only fun to play but also visually appealing and user-friendly. This version connects a client to a local server so the game is run from the localhost and not from the client. 
 
