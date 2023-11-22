@@ -14,10 +14,10 @@ Yhatzee combines luck and strategy into a simple dice game. A player will roll 5
 
 ### Colour Palette
   -   **Text Colour:** '#000000'
-  -   **Backgroudnd Colour:** '#981d31' - Used for the main background 
-  -   **Secondary Background Colour:** #555555' - Used for the background of the score sheet
-  -   **Border Colour:** '#ffffff' - Used for the boxes of the score sheet
-  -   **Score Sheet Background Colour:** '#1f3857' - Used for the background of the score sheet
+  -   **Backgroudnd Colour:** '#981d31' - Used for the main background //changed for portfolio after yahtzee game 
+  -   **Secondary Background Colour:** #555555' - Used for the background of the score sheet //changed for portfolio after yahtzee game 
+  -   **Border Colour:** '#ffffff' - Used for the boxes of the score sheet //changed for portfolio after yahtzee game 
+  -   **Score Sheet Background Colour:** '#1f3857' - Used for the background of the score sheet //changed for portfolio after yahtzee game 
   -   **Header Colour:** '#6f7086' - Used for the name of the game
 
 ### Typography
@@ -27,21 +27,21 @@ Yhatzee combines luck and strategy into a simple dice game. A player will roll 5
 
 ### Dice look and feel
 
-The dice will be a white colour #ffffff, with pips being black '#000000'. 
+The dice will be a white colour #ffffff, with pips being black '#000000'.  //changed for portfolio after yahtzee game 
 
 ## Game Mock-Ups
-  -   **Dice Image**
+  -   **Dice Image** //changed for portfolio after yahtzee game 
 
     
   ![Dice Image](/DiceImage.png)
 
-  -   **Score Sheet Image**
+  -   **Score Sheet Image** //changed for portfolio after yahtzee game 
 
     
   ![Score Sheet Image](/ScoreSheet.png)
 
 
-  -   **Game Image**
+  -   **Game Image** //changed for portfolio after yahtzee game 
 
     
   ![Game Image](/GameImage.png)
