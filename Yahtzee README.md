@@ -1,4 +1,4 @@
-# cst_3106-labs
+# Assignment One, Yahtzee Game
 
 ## Yahtzee Game Design Documetnation
 
