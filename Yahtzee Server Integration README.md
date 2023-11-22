@@ -14,10 +14,10 @@ Yhatzee combines luck and strategy into a simple dice game. A player will roll 5
 
 ### Colour Palette
   -   **Text Colour:** '#000000'
-  -   **Backgroudnd Colour:** '#981d31' - Used for the main background 
-  -   **Secondary Background Colour:** #555555' - Used for the background of the score sheet
-  -   **Border Colour:** '#ffffff' - Used for the boxes of the score sheet
-  -   **Score Sheet Background Colour:** '#1f3857' - Used for the background of the score sheet
+  -   **Backgroudnd Colour:** '#981d31' - Used for the main background //changed for portfolio after yahtzee game 
+  -   **Secondary Background Colour:** #555555' - Used for the background of the score sheet //changed for portfolio after yahtzee game 
+  -   **Border Colour:** '#ffffff' - Used for the boxes of the score sheet //changed for portfolio after yahtzee game 
+  -   **Score Sheet Background Colour:** '#1f3857' - Used for the background of the score sheet //changed for portfolio after yahtzee game 
   -   **Header Colour:** '#6f7086' - Used for the name of the game
 
 ### Typography
@@ -30,18 +30,18 @@ Yhatzee combines luck and strategy into a simple dice game. A player will roll 5
 The dice will be a white colour #ffffff, with pips being black '#000000'. 
 
 ## Game Mock-Ups
-  -   **Dice Image**
+  -   **Dice Image** //changed for portfolio after yahtzee game 
 
     
   ![Dice Image](/DiceImage.png)
 
-  -   **Score Sheet Image**
+  -   **Score Sheet Image** //changed for portfolio after yahtzee game 
 
     
   ![Score Sheet Image](/ScoreSheet.png)
 
 
-  -   **Game Image**
+  -   **Game Image** //changed for portfolio after yahtzee game 
 
     
   ![Game Image](/GameImage.png)
@@ -53,7 +53,7 @@ Scoring: Points are awarded based on the dice combination rolled.
 Game end: Once all the scorecard combinations are filled, the game will tally the points and show the total score. 
 
 ## Server Integration
-Using NodeJS and installing express, a server can be run that hosts the game processes meaning the game can be run from a server. The HTML, CSS, and part of the Javascript file is run from the client, and the main game processes are run from the server side. 
+Using NodeJS and installing express, a server can be run that hosts the game processes meaning the game can be run from a server. The HTML, CSS, and part of the Javascript file is run from the client, and the main game processes are run from the server side.  //changed for portfolio after yahtzee game 
 
 - YahtzeeDice.css: CSS file of the server integration yahtzee game.
 - YahtzeeDice.html: HTML file of the server integration yahtzee game.
@@ -61,5 +61,5 @@ Using NodeJS and installing express, a server can be run that hosts the game pro
 - YahtzeeServer.js: Javascript file of the server integration yahtzee game.
 
 ## Colclusion
-This design document serves as a foundation for our Yatzy game development. Following these guidelines ensures we deliver a game that's not only fun to play but also visually appealing and user-friendly. This version connects a client to a local server so the game is run from the localhost and not from the client. 
+This design document serves as a foundation for our Yatzy game development. Following these guidelines ensures we deliver a game that's not only fun to play but also visually appealing and user-friendly. This version connects a client to a local server so the game is run from the localhost and not from the client. //changed for portfolio after yahtzee game 
 
