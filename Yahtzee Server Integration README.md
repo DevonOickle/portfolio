@@ -1,4 +1,4 @@
-# cst_3106-labs
+# Assignment Two, Yahtzee Game Server Integration
 
 ## Yahtzee Game Design Documetnation
 
