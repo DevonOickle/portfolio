@@ -2,92 +2,82 @@
 
 <html>
     <head>
-        <link rel="stylesheet" href="lab3css">
+        <style>
+            .header{
+                background-color: lightgray;
+                padding: 20px;
+                text-align: center;}
+
+            *{
+                box-sizing: border-box;
+            }
+            
+            .column{
+                float: left;
+                width: 50%;
+                padding: 15px;}
+        </style>
+
     </head>
 
-    <body style = "background-color: #6f7086;">
+    <body>
 
         <div class="header">
             <h1>
                 Devon Oickle
-                
             </h1>
         </div>
 
-        <div class="header2">
-            <h2>
-                842 Giant Cedars Cres., Ottawa, ON K1V1N9 
-            </h2>
-            <h2>
-                (613) -808-6234
-            </h2> 
-            <h2>
-                OICKLE.DEVON@GMAIL.COM
-            </h2>
-            
-        </div>
-            
-        <hr>
         <div class="column">
-            
             <h2>
                 Work experience
             </h2>
-            <p class = "solid">
+            <p>
                 JUNE 2020 TO PRESENT 
                 CO-OWNER - SWIMRSS
             </p>
 
-            <p class = "outset">
+            <p>
                 My brother and I started a Red Cross certified business teaching swimming lessons in our backyard pool.
-            <br>
-            <br>
+            </p>
 
+            <p>
                 Administer the business and set up a legal partnership, procure insurance, obtain Red Cross certification for the pool, create website, schedule lessons, invoice and collect fees for lessons
-            <br>
-            <br>
+            </p>
 
+            <p>
                 Communicate and follow-up with parents about lesson administration and skills development of the students  
-           <br>
-           <br>
+            </p>
+
+            <p>
                 Teach lessons one on one, including power swim
             </p>
-            <p class = "solid">
+            
 
+            <p>
                 MARCH 2021 TO PRESENT
                 SUPERVISOR AND INSTRUCTOR, Carleton university
             </p>
-            
-            
-            <p class = "outset">
+            <p>
                 Assist lifeguards/instructors by passing on knowledge of swim instruction and lifeguarding
                 Supervise lifeguards/instructors
-            <br>
-            <br>
-            
+            </p>
+            <p>
                 Participate in skills evaluations sessions to hire lifeguards/instructors
-            <br>
-            <br>
-
+            </p>
+            <p>
                 Conduct skills training for lifeguards/instructors
-            <br>
-            <br>
+            </p>
+            <p>
                 Lifeguard and instructor responsibilities 
-            <br>
             </p>
-            <p class = "solid">
-                MAY 2018 TO NOVEMBER 2019
-                <br>
-                LIFEGUARD AND INSTRUCTOR
-                <br>
-                Carleton university
+
+            <p>
+MAY 2018 TO NOVEMBER 2019
+LIFEGUARD AND INSTRUCTOR, Carleton university
+Provide swim instruction to children and adults, including the Bronze series courses
+
             </p>
-            <p class = "outset">
-                
-                Provide swim instruction to children and adults, including the Bronze series courses
-            </p>
-            
-            
 
         </div>
     <div class="row">
@@ -97,19 +87,20 @@
                 Education
             </h2>
 
-            <p class = "outset">
+            <p>
                 SEPTEMBER 2022 TO PRESENT 
                 BACHELOR OF TECHNOLOGY (HOLOURS DIGITAL HEALTH), ALGONQUIN COLLEGE
                 
-                <br>
-                <br>
+                
+            </p>
 
+            <p>
                 SEPTEMBER 2020 TO DECEMBER 2021
                 BACHELOR OF SCIENCE (BIOLOGY), ONTARIO TECH UNIVERSITY
                 
-                <br>
-                <br>
+            </p>
 
+            <p>
                 JUNE 2020
                 HIGH SCHOOL DIPLOMA, Merivale high school
                 
@@ -124,31 +115,25 @@
                 Certifications
             </h2>
 
-            <p class = "outset">
+            <p>
                 CPR C/ Standard First Aid
-                
-                <br>
-                <br>
-
-                National Lifeguard Certification (Lifesaving Society)
-                
-                <br>
-                <br>
-
-                Lifesaving Swim instructor (Lifesaving Society)
-            
-                <br>
-                <br>
-
-                Lifesaving Instructor Certification (Lifesaving society)
-
-                <br>
-                <br>
-
-                Emergency First Aid Instructor Certification (Red Cross) 
             </p>
 
-            
+            <p>
+                National Lifeguard Certification (Lifesaving Society)
+            </p>
+
+            <p>
+                Lifesaving Swim instructor (Lifesaving Society)
+            </p>
+
+            <p>
+                Lifesaving Instructor Certification (Lifesaving society)
+            </p>
+
+            <p>
+                Emergency First Aid Instructor Certification (Red Cross) 
+            </p>      
 
         </div>
     </div>
@@ -160,15 +145,151 @@
                 Fun facts about me
             </h2>
 
-            <p class = "outset">
+            <p>
                 I enjoy swimming, reading, playing ultimate, and working out
-                <br>
-                <br>
+            </p>
+
+            <p>
                 Fluent in both English and French
             </p>
 
-            
+        </div>
+        <div class="column">
+            <h2>
+                Project Deliverable 2
+            </h2>
 
+            <h3>
+                Assignment 1: Yahtzee 
+            </h3>
+
+            <h4>
+                Overview
+            </h4>
+            <p>
+                Yahtzee is a classic dice game that involves rolling five dice to achieve specific combinations and earn points. The game consists of 13 rounds, and in each round, the player can roll the dice up to three times to achieve the desired combination.
+            </p>
+            <h4>
+                Architecture 
+            </h4>
+            <p>
+                The Yahtzee game is implemented as a web application using HTML, CSS, and JavaScript.
+            </p>
+            <h4>
+                Game flow
+            </h4>
+            <p>
+                Game Start: The game initializes with a score card, dice and a roll button on a hand made custom background.
+                Rolling Dice: 
+                        - Clicking the roll button rolls the Dice
+                        - The dice animation is displayed and the dice numbers are displayed
+                Scoring:
+                        - The player selects a combination of the dice to score based on the dice values.
+                        - Once the score combnation is selected the scorecard is updated
+                End of round:
+                        - Once the score combination is selected, the total score is updated and the player progresses to the next round.
+                Game End: 
+                        - After the 13 rounds are played the game is done and the final score is displayed. 
+
+            </p>
+            <h4>
+                Conclusion
+            </h4>
+            <p>
+                The yahtzee game is a fun web based game that allows a player to pass some time and learn to play a common dice game!
+            </p>
+        </div>
+
+        <div class="column">
+
+            <h3>
+                Assignment 2: Yahtzee Node.JS Client/Server implementation 
+            </h3>
+
+            <h4>
+                Overview
+            </h4>
+            <p>
+                Yahtzee is a classic dice game that involves rolling five dice to achieve specific combinations and earn points. The game consists of 13 rounds, and in each round, the player can roll the dice up to three times to achieve the desired combination.
+            </p>
+            <h4>
+                Architecture 
+            </h4>
+            <p>
+                The Yahtzee game is implemented as a web application using HTML, CSS, and JavaScript for the frontend. The backend is powered by Node.js and Express, allowing communication between the client and server.
+            </p>
+            <h4>
+                Frontend
+            </h4>
+            <p>
+                Front end styling, the game is rendered and allows for user interaction. The front end is done with HTML and CSS that allows for the structure and styling of the game interface
+                Front end game logic, the logic is implemented with JavaScript, allowing for the dice rolling and communication with the server
+            </p>
+            <h4>
+                Back end
+            </h4>
+            <p>
+                The backend manages the game state, handles dice rolling logic, and communicates with the frontend. Key components include:
+
+                        - Node.js: Provides the runtime environment for the server.
+                        - Express: A web application framework for Node.js that simplifies server-side development. 
+            </p>
+            <h4>
+                Game flow
+            </h4>
+            <p>
+                Game Start: The game initializes with a score card, dice and a roll button on a hand made custom background.
+                Rolling Dice: 
+                        - Clicking the roll button rolls the Dice
+                        - The dice animation is displayed and the dice numbers are displayed
+                Scoring:
+                        - The player selects a combination of the dice to score based on the dice values.
+                        - Once the score combnation is selected the scorecard is updated
+                End of round:
+                        - Once the score combination is selected, the total score is updated and the player progresses to the next round.
+                Game End: 
+                        - After the 13 rounds are played the game is done and the final score is displayed. 
+
+            </p>
+            <h4>
+                Conclusion
+            </h4>
+            <p>
+                The yahtzee game is a fun web based game that allows a player to pass some time and learn to play a common dice game!
+            </p>
+
+        </div>
+
+        <div class="column">
+            <h2>
+                Highlights and challanges
+            </h2>
+            <h3>
+                Client server interaction challange
+            </h3>
+            <p>
+                We had some issues creating a seamless flow between the client and server. We are working at solving this issue!
+            </p>
+            <h3>
+                Design interface highlight
+            </h3>
+            <p>
+                I hand made a custom background and added a custom score card to make my game look a little better. I spent a while on it and it looks good!
+            </p>
+            <h2>
+                Key technologies and tools
+            </h2>
+            <p>
+                During the construction of this project, I have developped a much larger and well defined knowledge of HTML, JavaScript, and CSS.  
+
+                HTTP & TCP/IP. In this project, I have gained a more solid foundation about the protocals of the internet and how the client and server devices communicate.
+            </p>
+            <h3>
+                Web Standards and Good Practices
+            </h3>
+            <p>
+                In addition to learning the importance of creating content that is accessable to all people, including those with dissabilities, there was also a strong focus on overcoming issues and challanges that come with the designing and creation of an animated game with client-server capabilities
+            </p>
         </div>
     </div>
 
